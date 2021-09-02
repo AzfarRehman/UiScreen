@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:uiscreen/MyAppBar.dart';
 import 'package:uiscreen/Mystyle.dart';
 import 'package:uiscreen/Profile.dart';
+import 'package:uiscreen/posts.dart';
 
 
 
@@ -24,10 +25,9 @@ class MyApp extends StatelessWidget {
             children: [
               Stack(
                 children: [
+                  MyPosts(),
                  MyProfile(),
                   MyAppBar(),
-
-
                 ],
               )
             ],

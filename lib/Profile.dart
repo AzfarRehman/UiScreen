@@ -17,7 +17,10 @@ class MyProfile extends StatelessWidget {
       ),
       child: Column(
         children: [
-          CircleAvatar(),
+          CircleAvatar(
+           backgroundImage: NetworkImage("https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/f43adbea8610c2a73d138d8bf20ac40f-1618305113979/3cd08647-6c6d-4547-aa32-ebc3112f4be3.jpeg"),
+        radius: 30.0,
+          ),
           SizedBox(
             height: 10,
             width: double.infinity,

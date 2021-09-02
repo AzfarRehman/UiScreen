@@ -22,3 +22,7 @@ const TextStyle followText = TextStyle(
     fontSize: 14.0,
     color: Colors.grey
 );
+const TextStyle postText = TextStyle(
+  color: Colors.white,
+    fontSize: 14.0
+);
